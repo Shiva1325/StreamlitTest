@@ -2,8 +2,7 @@ streamlit
 joblib
 scikit-learn
 pandas
-keras>=2.9
-tensorflow>=2.9
+keras
+tensorflow
 numpy
 Pillow
-h5py
