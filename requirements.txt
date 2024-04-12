@@ -7,3 +7,4 @@ tensorflow
 numpy
 Pillow
 h5py
+pickle
