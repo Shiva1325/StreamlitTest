@@ -3,8 +3,8 @@ import joblib as jb
 from keras.models import load_model
 def predict(data):
     # preprocess = load_model("preprocessor.sav
-    preprocess = load_model('preprocessor.keras')
-    tensor_data = preprocess(data)
-    # reg = jb.load("tensor_model.sav")
+    # preprocess = load_model('preprocessor.keras')
+    # tensor_data = preprocess(data)
+    reg = jb.load("tensor_model.h5")
     # return reg.predict(tensor_data)
-    return tensor_data;
+    return reg;
