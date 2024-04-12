@@ -7,4 +7,3 @@ tensorflow>=2.9
 numpy
 Pillow
 h5py
-pickle
