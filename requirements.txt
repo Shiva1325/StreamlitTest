@@ -3,7 +3,7 @@ joblib
 scikit-learn
 pandas
 keras
-tensorflow-gpu
+
 tensorflow
 numpy
 Pillow
